@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCSVending - Vending Machine Services Broward County FL</title>
+    <meta name="description" content="Professional vending machine services in Broward County, Florida. Zero upfront costs, energy-efficient Seaga QB4000 machines, weekly restocking. Serving businesses with 60+ employees.">
+    <meta name="keywords" content="vending machines Broward County, Fort Lauderdale vending machines, Hollywood FL vending, Pembroke Pines vending, Coral Springs vending services, Plantation FL vending, Sunrise vending machines, Davie FL office vending, Pompano Beach vending, Florida vending services, office vending machines, workplace snacks, Seaga QB4000, energy efficient vending, commercial vending">
+    <meta name="author" content="CCSVending">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ccsvend.com/">
+    <meta property="og:title" content="CCSVending - Vending Machine Services Broward County FL">
+    <meta property="og:description" content="Professional vending machine services in Broward County, Florida. Zero upfront costs, energy-efficient machines, weekly restocking.">
+    <meta property="og:image" content="https://ccsvend.com/logo.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ccsvend.com/">
+    <meta property="twitter:title" content="CCSVending - Vending Machine Services Broward County FL">
+    <meta property="twitter:description" content="Professional vending machine services in Broward County, Florida. Zero upfront costs, energy-efficient machines, weekly restocking.">
+    <meta property="twitter:image" content="https://ccsvend.com/logo.png">
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "CCSVending",
+      "description": "Professional vending machine services in Broward County, Florida",
+      "url": "https://ccsvend.com",
+      "telephone": "+1-954-647-7892",
+      "email": "ccsvend@yahoo.com",
+      "logo": "https://ccsvend.com/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "FL",
+        "addressCountry": "US",
+        "addressLocality": "Broward County"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "26.1224",
+        "longitude": "-80.1373"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "Broward County, Florida"
+      },
+      "serviceType": "Vending Machine Services",
+      "priceRange": "$$"
+    }
+    </script>
+    
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0052CC, #1976D2);
+            color: white;
+            padding: 0.5rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 15px rgba(0,82,204,0.3);
+            height: 80px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .logo img {
+            height: 150px;
+            width: 200px;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+        
+        .nav-links a:hover {
+            color: #B8D4FF;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 82, 204, 0.9), rgba(25, 118, 210, 0.8)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%230052CC" width="1200" height="600"/><circle fill="%231976D2" cx="200" cy="150" r="100" opacity="0.3"/><circle fill="%23B8D4FF" cx="800" cy="300" r="150" opacity="0.2"/><circle fill="%23003F7F" cx="1000" cy="100" r="80" opacity="0.4"/></svg>');
+            background-size: cover;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+            margin-top: 80px;
+        }
+        
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        .hero-content p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+        }
+        
+        .cta-button.primary {
+            background: #B8D4FF;
+            color: #0052CC;
+        }
+        
+        .cta-button.primary:hover {
+            background: #A0C8FF;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,82,204,0.3);
+        }
+        
+        .cta-button.secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid #B8D4FF;
+        }
+        
+        .cta-button.secondary:hover {
+            background: #B8D4FF;
+            color: #0052CC;
+            transform: translateY(-2px);
+        }
+        
+        /* Energy Efficiency Section */
+        .energy-efficiency {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, #F0F7FF, #E8F2FF);
+        }
+        
+        .efficiency-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+        
+        .efficiency-text h3 {
+            color: #0052CC;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .efficiency-text p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: #555;
+        }
+        
+        .efficiency-features {
+            display: grid;
+            gap: 1.5rem;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            font-size: 2rem;
+            min-width: 50px;
+        }
+        
+        .feature-item h4 {
+            color: #0052CC;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .feature-item p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #666;
+        }
+        
+        .efficiency-stats {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .efficiency-stats h3 {
+            color: #0052CC;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+        }
+        
+        .stat-card {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #B8D4FF, #A0C8FF);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0052CC;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            color: #0052CC;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+
+        /* Machine Features Section */
+        .machine-features {
+            padding: 5rem 0;
+            background: #f8f9fa;
+        }
+        
+        .machine-showcase {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+        
+        .machine-info h3 {
+            color: #0052CC;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .machine-info > p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: #555;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .feature-highlight {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .feature-highlight:hover {
+            transform: translateY(-3px);
+        }
+        
+        .highlight-icon {
+            font-size: 1.8rem;
+            min-width: 45px;
+        }
+        
+        .feature-highlight h4 {
+            color: #0052CC;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .feature-highlight p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #666;
+        }
+        
+        .capacity-info {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+        }
+        
+        .capacity-info h3 {
+            color: #0052CC;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        
+        .capacity-breakdown {
+            margin-bottom: 2rem;
+        }
+        
+        .capacity-item {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #F0F7FF, #E8F2FF);
+            border-radius: 10px;
+        }
+        
+        .capacity-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0052CC;
+            margin-bottom: 0.5rem;
+        }
+        
+        .capacity-label {
+            color: #0052CC;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.3rem;
+        }
+        
+        .capacity-detail {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .machine-specs {
+            border-top: 2px solid #e8f5e8;
+            padding-top: 1.5rem;
+        }
+        
+        .machine-specs h4 {
+            color: #0052CC;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .spec-row {
+            display: flex;
+            justify-content: space-between;
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        /* Products Section */
+        .products {
+            padding: 5rem 0;
+            background: white;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .product-categories {
+            margin-bottom: 4rem;
+        }
+        
+        .category-section {
+            margin-bottom: 4rem;
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 2.5rem;
+        }
+        
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .category-icon {
+            font-size: 2.5rem;
+        }
+        
+        .category-header h3 {
+            color: #0052CC;
+            font-size: 1.8rem;
+            margin: 0;
+            flex: 1;
+        }
+        
+        .selection-count {
+            background: #B8D4FF;
+            color: #0052CC;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .product-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            transition: transform 0.3s;
+        }
+        
+        .product-item:hover {
+            transform: translateY(-3px);
+        }
+        
+        .product-name {
+            font-weight: bold;
+            color: #0052CC;
+            font-size: 1.1rem;
+        }
+        
+        .product-benefit {
+            color: #B8D4FF;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .product-promise {
+            background: linear-gradient(135deg, #0052CC, #1976D2);
+            color: white;
+            padding: 3rem;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .promise-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            color: #B8D4FF;
+        }
+        
+        .promise-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .promise-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .promise-icon {
+            font-size: 1.3rem;
+            color: #B8D4FF;
+        }
+
+        /* Pricing & Service Section */
+        .pricing-service {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, #0052CC, #1976D2);
+            color: white;
+        }
+        
+        .pricing-service .section-title {
+            color: white;
+        }
+        
+        .pricing-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+        
+        .pricing-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 2.5rem;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .pricing-card h3 {
+            color: #B8D4FF;
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .price-highlight {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .price-text {
+            display: block;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #B8D4FF;
+        }
+        
+        .price-desc {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 2rem;
+        }
+        
+        .pricing-features li {
+            padding: 0.5rem 0;
+            font-size: 1.1rem;
+        }
+        
+        .contract-terms {
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            text-align: center;
+            opacity: 0.9;
+        }
+        
+        .service-details h3 {
+            color: #B8D4FF;
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+        }
+        
+        .process-steps {
+            margin-bottom: 3rem;
+        }
+        
+        .step-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .step-number {
+            background: #B8D4FF;
+            color: #0052CC;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+        
+        .step-item h4 {
+            color: #B8D4FF;
+            margin-bottom: 0.5rem;
+        }
+        
+        .step-item p {
+            margin: 0;
+            opacity: 0.9;
+        }
+        
+        .requirements {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+        
+        .requirements h4 {
+            color: #B8D4FF;
+            margin-bottom: 1rem;
+        }
+        
+        .requirements ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .requirements li {
+            padding: 0.3rem 0;
+            opacity: 0.9;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 5rem 0;
+            background: #f8f9fa;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #0052CC;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .service-card h3 {
+            color: #0052CC;
+            margin-bottom: 1rem;
+        }
+        
+        /* About Section */
+        .about {
+            padding: 5rem 0;
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .about-text h2 {
+            color: #0052CC;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .about-text p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .about-image {
+            background: linear-gradient(45deg, #1976D2, #B8D4FF);
+            height: 300px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+        /* FAQ Section */
+        .faq {
+            padding: 5rem 0;
+            background: white;
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid #B8D4FF;
+        }
+        
+        .faq-item h3 {
+            color: #0052CC;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .faq-item p {
+            color: #555;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: #0052CC;
+            color: white;
+            padding: 5rem 0;
+        }
+        
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+        
+        .contact-form {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 15px;
+        }
+        
+        .contact-form h3 {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        
+        .submit-button {
+            background: #B8D4FF;
+            color: #0052CC;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .submit-button:hover {
+            background: #A0C8FF;
+        }
+        
+        .contact-info h3 {
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact-item {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: #003F7F;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-content p {
+                font-size: 1.1rem;
+            }
+            
+            .about-content, .contact-content, .efficiency-content, .machine-showcase, .pricing-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .efficiency-content, .machine-showcase, .pricing-content {
+                gap: 2rem;
+            }
+            
+            .features-grid, .product-grid, .promise-features, .faq-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .spec-row {
+                flex-direction: column;
+                gap: 0.5rem;
+                text-align: center;
+            }
+            
+            .category-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+            
+            .category-header h3 {
+                font-size: 1.5rem;
+            }
+            
+            .logo img {
+                height: 80px;
+                width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="logo.png" alt="CCSVending">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#pricing-service">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional Vending Machine Services in Broward County, FL</h1>
+                <p>Premium <strong>Seaga QB4000 vending machines</strong> with zero upfront costs - featuring better-for-you snacks and beverages that fuel productivity and wellness</p>
+                <div class="cta-buttons">
+                    <a href="#pricing-service" class="cta-button primary">View Pricing & Details</a>
+                    <a href="https://calendly.com/tv-20013/15min" class="cta-button secondary" target="_blank">Schedule a Call</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="energy-efficiency" class="energy-efficiency">
+        <div class="container">
+            <h2 class="section-title">Energy-Efficient Technology</h2>
+            <div class="efficiency-content">
+                <div class="efficiency-text">
+                    <h3>Eco-Friendly Vending Solutions</h3>
+                    <p>Our state-of-the-art vending machines are designed with energy efficiency at the forefront, helping reduce your workplace's carbon footprint while saving on operational costs.</p>
+                    <div class="efficiency-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">🌡️</span>
+                            <div>
+                                <h4>Energy Efficient R290 Refrigeration</h4>
+                                <p>Advanced eco-friendly refrigeration system with precise temperature control</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">⚡</span>
+                            <div>
+                                <h4>Energy Saver Settings</h4>
+                                <p>Programmable energy-saving modes reduce power consumption during off-peak hours</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🔇</span>
+                            <div>
+                                <h4>Quiet Operation</h4>
+                                <p>Office-friendly design operates quietly without disrupting your workplace environment</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">📐</span>
+                            <div>
+                                <h4>Compact Footprint</h4>
+                                <p>Requires just over 6 square feet - perfect for offices with limited space</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="efficiency-stats">
+                    <h3>Machine Specifications</h3>
+                    <div class="stat-card">
+                        <div class="stat-number">21</div>
+                        <div class="stat-label">Product Selections</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Square Feet Required</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="machine-features" class="machine-features">
+        <div class="container">
+            <h2 class="section-title">Seaga QB4000 - Premium Vending Technology</h2>
+            <div class="machine-showcase">
+                <div class="machine-info">
+                    <h3>Advanced Features for Modern Workplaces</h3>
+                    <p>Our Seaga QB4000 vending machines combine cutting-edge technology with user-friendly design to deliver the best possible experience for your employees.</p>
+                    
+                    <div class="features-grid">
+                        <div class="feature-highlight">
+                            <span class="highlight-icon">💳</span>
+                            <div>
+                                <h4>Seamless Payment Integration</h4>
+                                <p>Accept cash, cards, mobile payments, and contactless transactions</p>
+                            </div>
+                        </div>
+                        <div class="feature-highlight">
+                            <span class="highlight-icon">🎯</span>
+                            <div>
+                                <h4>Individual Selection Pricing</h4>
+                                <p>Fully programmable pricing for each product slot</p>
+                            </div>
+                        </div>
+                        <div class="feature-highlight">
+                            <span class="highlight-icon">📊</span>
+                            <div>
+                                <h4>Full Sales Reporting</h4>
+                                <p>Detailed analytics and reporting for inventory management</p>
+                            </div>
+                        </div>
+                        <div class="feature-highlight">
+                            <span class="highlight-icon">🔐</span>
+                            <div>
+                                <h4>Anti-Theft Design</h4>
+                                <p>Secure construction protects products and payment systems</p>
+                            </div>
+                        </div>
+                        <div class="feature-highlight">
+                            <span class="highlight-icon">👁️</span>
+                            <div>
+                                <h4>Live Product Display</h4>
+                                <p>Customers can see exactly what they're purchasing</p>
+                            </div>
+                        </div>
+                        <div class="feature-highlight">
+                            <span class="highlight-icon">🏷️</span>
+                            <div>
+                                <h4>Custom Branding Available</h4>
+                                <p>Personalize machines with your company branding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="capacity-info">
+                    <h3>Product Capacity</h3>
+                    <div class="capacity-breakdown">
+                        <div class="capacity-item">
+                            <div class="capacity-number">11</div>
+                            <div class="capacity-label">Chip & Pastry Selections</div>
+                            <div class="capacity-detail">Up to 77 items</div>
+                        </div>
+                        <div class="capacity-item">
+                            <div class="capacity-number">10</div>
+                            <div class="capacity-label">Candy Selections</div>
+                            <div class="capacity-detail">Up to 140 items</div>
+                        </div>
+                        <div class="capacity-item">
+                            <div class="capacity-number">8</div>
+                            <div class="capacity-label">Beverage Selections</div>
+                            <div class="capacity-detail">Up to 120 items</div>
+                        </div>
+                    </div>
+                    
+                    <div class="machine-specs">
+                        <h4>Machine Dimensions</h4>
+                        <div class="spec-row">
+                            <span>Height: 73.5"</span>
+                            <span>Width: 35"</span>
+                            <span>Depth: 34.5"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Product Selection</h2>
+            <p class="section-subtitle">We stock our machines with a variety of popular snacks and beverages to satisfy every craving</p>
+            
+            <div class="product-categories">
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">🍪</div>
+                        <h3>Cookies & Sweet Snacks</h3>
+                        <span class="selection-count">5 Popular Options</span>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-item">
+                            <span class="product-name">Famous Amos Chocolate Chip Cookies</span>
+                            <span class="product-benefit">Classic Favorite</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Nabisco Cookie & Cracker Variety Pack</span>
+                            <span class="product-benefit">Multiple Options</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Oreo Variety Pack Sandwich Cookies</span>
+                            <span class="product-benefit">America's Favorite</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Nature Valley Granola Bars</span>
+                            <span class="product-benefit">Trail Mix & Fruit</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Welch's Fruit Snacks</span>
+                            <span class="product-benefit">Real Fruit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">🥨</div>
+                        <h3>Chips & Salty Snacks</h3>
+                        <span class="selection-count">12+ Varieties</span>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-item">
+                            <span class="product-name">Cheez-It Crackers</span>
+                            <span class="product-benefit">Original & White Cheddar</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Frito-Lay Favorites</span>
+                            <span class="product-benefit">Doritos, Cheetos, Baked Options</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Sensible Portions Veggie Straws</span>
+                            <span class="product-benefit">Better-for-You Choice</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Pepperidge Farm Goldfish</span>
+                            <span class="product-benefit">Cheddar Crackers</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Premium Brands</span>
+                            <span class="product-benefit">Pringles, Ruffles, PopCorners</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">💪</div>
+                        <h3>Protein & Energy</h3>
+                        <span class="selection-count">Health-Focused Options</span>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-item">
+                            <span class="product-name">Pure Protein & Quest Bars</span>
+                            <span class="product-benefit">Gluten-Free Options</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Premium Energy Drinks</span>
+                            <span class="product-benefit">Celsius, Prime, Red Bull</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Mixed Nuts & Pistachios</span>
+                            <span class="product-benefit">Healthy Protein</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Protein Drinks</span>
+                            <span class="product-benefit">Post-Workout Recovery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">🥤</div>
+                        <h3>Beverages & Hydration</h3>
+                        <span class="selection-count">25+ Drink Options</span>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-item">
+                            <span class="product-name">Sports Drinks</span>
+                            <span class="product-benefit">Gatorade, Powerade, BodyArmor</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Premium Sodas</span>
+                            <span class="product-benefit">Coke, Pepsi, Sprite (Regular & Zero)</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Bottled Water</span>
+                            <span class="product-benefit">Pure Hydration</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Arizona Tea & Snapple</span>
+                            <span class="product-benefit">Refreshing Alternatives</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-section">
+                    <div class="category-header">
+                        <div class="category-icon">🍫</div>
+                        <h3>Chocolate & Candy</h3>
+                        <span class="selection-count">Full-Size Favorites</span>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-item">
+                            <span class="product-name">Kit Kat & Hershey's</span>
+                            <span class="product-benefit">Full-Size Chocolate Bars</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Mars Variety Pack</span>
+                            <span class="product-benefit">Snickers, Twix & More</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="pricing-service" class="pricing-service">
+        <div class="container">
+            <h2 class="section-title">Simple, Fair Pricing</h2>
+            <div class="pricing-content">
+                <div class="pricing-main">
+                    <div class="pricing-card">
+                        <h3>No-Cost Solution</h3>
+                        <div class="price-highlight">
+                            <span class="price-text">$0</span>
+                            <span class="price-desc">upfront investment</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>✅ No upfront costs or setup fees</li>
+                            <li>✅ Free machine installation & setup</li>
+                            <li>✅ All maintenance & repairs included</li>
+                            <li>✅ Weekly restocking (customizable)</li>
+                            <li>✅ Full sales reporting</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-details">
+                    <h3>Installation Process</h3>
+                    <div class="process-steps">
+                        <div class="step-item">
+                            <span class="step-number">1</span>
+                            <div>
+                                <h4>Site Inspection</h4>
+                                <p>We evaluate your space and employee count to ensure optimal placement</p>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <span class="step-number">2</span>
+                            <div>
+                                <h4>Delivery & Setup</h4>
+                                <p>Weekend installation to minimize workplace disruption</p>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <span class="step-number">3</span>
+                            <div>
+                                <h4>Go Live</h4>
+                                <p>Machine operational within one week of approval</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="requirements">
+                        <h4>Minimum Requirements</h4>
+                        <ul>
+                            <li>60+ employees for optimal traffic</li>
+                            <li>6+ square feet of floor space</li>
+                            <li>Standard electrical outlet access</li>
+                            <li>Located in Broward County, FL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">What's Included</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Full Service Maintenance</h3>
+                    <p>Complete restocking, cleaning, and maintenance included. We handle everything so you don't have to worry.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3>Weekly Restocking</h3>
+                    <p>Regular visits to ensure machines are always fully stocked with fresh, popular products. Schedule can be customized based on traffic.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏷️</div>
+                    <h3>Custom Product Selection</h3>
+                    <p>We customize product offerings based on your team's preferences and dietary requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About CCSVending</h2>
+                    <p>We're passionate advocates for <strong>healthy living</strong> who believe that convenient snacking doesn't have to compromise your wellness goals. Our mission is to make nutritious options easily accessible in <em>workplaces across Broward County</em>, helping teams stay energized and focused throughout the day.</p>
+                    <p>As health-conscious entrepreneurs, we carefully curate our product selection to include both satisfying treats and better-for-you alternatives. We understand that every workplace has different preferences, which is why we offer variety while prioritizing <strong>fresh, quality products</strong> that people actually want to eat.</p>
+                </div>
+                <div class="about-image">
+                    <p>Modern Vending Solutions<br>for Health-Conscious Teams</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What payment methods do your machines accept?</h3>
+                    <p>Our machines accept all major payment forms including cash, credit/debit cards, mobile payments (Apple Pay, Google Pay), and contactless transactions for maximum convenience.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How often do you restock the machines?</h3>
+                    <p>We typically restock weekly, but this can be customized based on your workplace's traffic and consumption patterns. High-traffic locations may receive more frequent visits.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What happens if the machine breaks down?</h3>
+                    <p>We provide full maintenance and repair services. Current customers receive priority support with response times within one hour during business hours.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can we customize the product selection?</h3>
+                    <p>Absolutely! We work with you to stock products that match your team's preferences and dietary requirements. Product selection can be adjusted based on sales data and feedback.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you serve areas outside Broward County?</h3>
+                    <p>Currently, we focus our services on Broward County, Florida to ensure we can provide the best possible service and response times to our customers.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What if our employee count changes?</h3>
+                    <p>We understand businesses grow and change. We can discuss adjustments to service based on changing needs and traffic patterns at your location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get Started Today</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3>Get Your Free Site Inspection</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Contact Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name *</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="employees">Number of Employees</label>
+                            <select id="employees" name="employees" required>
+                                <option value="">Select range</option>
+                                <option value="60-100">60-100 employees</option>
+                                <option value="100-200">100-200 employees</option>
+                                <option value="200-500">200-500 employees</option>
+                                <option value="500+">500+ employees</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Location (Broward County)</label>
+                            <input type="text" id="location" name="location" placeholder="City or area in Broward County">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Preferred installation timing, product preferences, or other details..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Request Free Site Inspection</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">📞 <strong>Phone:</strong> (954) 612-1345</div>
+                    <div class="contact-item">✉️ <strong>Email:</strong> ccsvend@yahoo.com</div>
+                    <div class="contact-item">📍 <strong>Service Area:</strong> Broward County, Florida</div>
+                    <div class="contact-item">🏢 <strong>Cities We Serve:</strong> Fort Lauderdale, Hollywood, Pembroke Pines, Coral Springs, Plantation, Sunrise, Davie, Pompano Beach, and surrounding areas</div>
+                    <div class="contact-item">⏰ <strong>Response Time:</strong> Within 1 hour for customers, 24 hours for inquiries</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CCSVending. All rights reserved. | Serving Broward County, Florida</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">
+                Licensed & Insured Vending Machine Services | 
+                <a href="mailto:ccsvend@yahoo.com?subject=Privacy Policy Request&body=Please send me a copy of CCSVending's Privacy Policy." style="color: #90ee90;">Privacy Policy</a> | 
+                <a href="mailto:ccsvend@yahoo.com?subject=Terms of Service Request&body=Please send me a copy of CCSVending's Terms of Service." style="color: #90ee90;">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handler - creates mailto link
+        document.querySelector('#contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const company = document.getElementById('company').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const employees = document.getElementById('employees').value;
+            const location = document.getElementById('location').value;
+            const message = document.getElementById('message').value;
+            
+            const subject = 'New Vending Machine Inquiry from Website';
+            const body = `Contact Name: ${name}
+Company Name: ${company}
+Email: ${email}
+Phone: ${phone}
+Number of Employees: ${employees}
+Location: ${location}
+
+Additional Information:
+${message}
+
+---
+Submitted via CCSVending website contact form`;
+            
+            const mailtoLink = `mailto:ccsvend@yahoo.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            
+            window.location.href = mailtoLink;
+            
+            // Clear form and show confirmation
+            this.reset();
+            alert('Your email client should open with the pre-filled inquiry. Please send the email to complete your request.');
+        });
+    </script>
+</body>
+</html>
