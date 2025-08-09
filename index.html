@@ -98,11 +98,21 @@
         .logo {
             font-size: 1.8rem;
             font-weight: bold;
+            color: white;
+        }
+        
+        /* Fallback text when logo image is not available */
+        .logo-text {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
         }
         
         .logo img {
-            height: 150px;
-            width: 200px;
+            height: 60px;
+            width: auto;
+            display: block;
         }
         
         .nav-links {
@@ -902,8 +912,12 @@
             }
             
             .logo img {
-                height: 80px;
-                width: 120px;
+                height: 60px;
+                width: auto;
+            }
+            
+            .logo-text {
+                font-size: 1.5rem;
             }
         }
     </style>
@@ -912,7 +926,11 @@
     <header>
         <nav class="container">
             <div class="logo">
-                <img src="logo.png" alt="CCSVending">
+                <!-- Fallback text if logo.png doesn't exist yet -->
+                <picture>
+                    <img src="logo.png" alt="CCSVending" onerror="this.style.display='none'; document.getElementById('logoText').style.display='block';">
+                </picture>
+                <a href="#home" id="logoText" class="logo-text" style="display:none;">CCSVending</a>
             </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -932,7 +950,7 @@
                 <p>Premium <strong>Seaga QB4000 vending machines</strong> with zero upfront costs - featuring better-for-you snacks and beverages that fuel productivity and wellness</p>
                 <div class="cta-buttons">
                     <a href="#pricing-service" class="cta-button primary">View Pricing & Details</a>
-                    <a href="https://calendly.com/tv-20013/15min" class="cta-button secondary" target="_blank">Schedule a Call</a>
+                    <a href="https://calendly.com/CCSVend" class="cta-button secondary" target="_blank">Schedule a Call</a>
                 </div>
             </div>
         </div>
@@ -1394,7 +1412,7 @@
                 </div>
                 <div class="contact-info">
                     <h3>Contact Information</h3>
-                    <div class="contact-item">📞 <strong>Phone:</strong> (954) 612-1345</div>
+                    <div class="contact-item">📞 <strong>Phone:</strong> (954) 647-7892</div>
                     <div class="contact-item">✉️ <strong>Email:</strong> ccsvend@yahoo.com</div>
                     <div class="contact-item">📍 <strong>Service Area:</strong> Broward County, Florida</div>
                     <div class="contact-item">🏢 <strong>Cities We Serve:</strong> Fort Lauderdale, Hollywood, Pembroke Pines, Coral Springs, Plantation, Sunrise, Davie, Pompano Beach, and surrounding areas</div>
